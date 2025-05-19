@@ -1,0 +1,47 @@
+package ejemplo03_Encapsulamiento;
+
+/*
+ * Ejemplo de visibilidad y encapsulamiento en Java
+ * 
+ * Definimos como privados los atributos de nuestra clase
+ * Libro, y como públicos los métodos.
+ * 
+ * Añadimos getters/setters para acceder a los atributos. 
+ */
+public class Libro 
+{
+    
+    private String titulo;
+    private String editorial;
+    private int numPaginas;
+    
+    public void mostrarInformacion() {
+        System.out.println("Título: " + titulo);
+        System.out.println("Editorial: " + editorial);
+        System.out.println("Páginas: " + numPaginas);
+    }
+    
+    public String getTitulo() {
+        return titulo;
+    }
+    
+    public void setTitulo(String nuevoTitulo) {
+        titulo = nuevoTitulo;
+    }
+    
+    public String getEditorial() {
+        return editorial;
+    }
+    
+    public void setEditorial(String nuevaEditorial) {
+        editorial = nuevaEditorial;
+    }
+    
+    public int getNumPaginas() {
+        return numPaginas;
+    }
+    
+    public void setNumPaginas(int np) {
+        numPaginas = (np > 0) ? np : 1;
+    }
+}

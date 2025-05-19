@@ -1,0 +1,34 @@
+package ejemplo02_ClasesYObjetos;
+
+/*
+ * Ejemplo de definici�n de clases y objetos en Java
+ * 
+ * Definimos una clase Libro para almacenar datos 
+ * de libros: t�tulo, editorial y n�mero de p�ginas, junto con 
+ * alguna operaci�n: mostrar los datos del libro en pantalla.
+ * 
+ * En el programa principal, creamos un objeto de tipo
+ * Libro y accedemos a sus elementos.
+ */ 
+
+
+
+public class Ejemplo01_ClasesYObjetos
+{
+	public static void main(String[] args)
+	{		
+		Libro libro1 = new Libro();
+		Libro libro2 = new Libro();
+
+		libro1.titulo = "El juego de Ender";
+		libro1.editorial = "Ediciones B";
+		libro1.numPaginas = 260;
+		
+		libro2.titulo = "La tabla de Flandes";
+		libro2.editorial = "Alfaguara";
+		libro2.numPaginas = 325;
+
+		libro1.mostrarInformacion();
+		libro2.mostrarInformacion();
+	}
+}

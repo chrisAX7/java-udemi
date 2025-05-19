@@ -1,0 +1,17 @@
+package ejercicioPropuesto03_VisibilidadYEncapsulamiento;
+
+public class Videojuego 
+{
+	/*----------ATRIBUTOS---------*/
+	private String titulo;
+	private String genero;
+	private double precio;
+
+	/*----------METODOS---------*/
+	public void mostrarInformacion()
+	{
+		System.out.println("Titulo: " + titulo);
+		System.out.println("Genero: " + genero);
+		System.out.println("Precio: " + precio + "USD");
+	}
+}

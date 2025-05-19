@@ -1,0 +1,26 @@
+package ejercicioPropuesto03_VisibilidadYEncapsulamiento;
+
+import java.util.Scanner;
+
+public class PruebaVideojuego 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner input = new Scanner(System.in);
+		Videojuego game1 = new Videojuego();
+		Videojuego game2 = new Videojuego();
+		Videojuego game3 = new Videojuego();
+		
+		System.out.println("Indique el nómbre del título");
+		String titulo = input.nextLine();
+		game1.setTitulo(titulo);
+		System.out.println("Indique el género del título");
+		String genero = input.nextLine();
+		game1.setGenero(genero);
+		System.out.println("Indique el precio del título");
+		double precio = input.nextDouble();
+		game1.setPrecio(precio);
+	}
+
+}

@@ -1,0 +1,26 @@
+package ejercicioPropuesto04_UsoDeConstructores;
+import java.util.Scanner;
+import ejercicioPropuesto03_VisibilidadYEncapsulamiento.Videojuego;
+
+public class PruebaConstructores {
+
+	public static Videojuego crearJuego()
+	{
+		Scanner input = new Scanner(System.in);
+		System.out.println("Ingrese el nombre del título: ");
+		String titulo = input.nextLine();
+		System.out.println("Ingrese el género del título: ");
+		String genero = input.nextLine();
+		System.out.println("Ingrese el precio del título: ");
+		int precio = input.nextInt();
+		input.nextLine();
+		Videojuego game = new Videojuego(titulo, genero, precio);
+		return game;
+	}
+	
+	public static void main(String[] args) 
+	{
+
+	}
+
+}

@@ -1,0 +1,74 @@
+package ejercicioPropuesto03_VisibilidadYEncapsulamiento;
+
+import java.util.Scanner;
+
+public class PruebaVideojuego 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner input = new Scanner(System.in);
+		Videojuego game1 = new Videojuego();
+		Videojuego game2 = new Videojuego();
+		Videojuego game3 = new Videojuego();
+		
+		System.out.println("Indique el nómbre del videojuego:");
+		String titulo = input.nextLine();
+		game1.setTitulo(titulo);
+		System.out.println("Indique el género del videojuego:");
+		String genero = input.nextLine();
+		game1.setGenero(genero);
+		System.out.println("Indique el precio del videojuego:");
+		double precio = input.nextDouble();
+		game1.setPrecio(precio);
+		
+		System.out.println("------------------------------");
+		
+		System.out.println("El título es " + game1.getTitulo());
+		System.out.println("El género es " + game1.getGenero());
+		System.out.println("El precio es es " + game1.getPrecio() + "$");
+		
+		/*-------------------------------------------------------------*/
+		/*-------------------------------------------------------------*/
+		/*-------------------------------------------------------------*/
+		
+		System.out.println("Indique el nómbre del videojuego:");
+		titulo = input.nextLine();
+		game2.setTitulo(titulo);
+		System.out.println("Indique el género del videojuego:");
+		genero = input.nextLine();
+		game2.setGenero(genero);
+		System.out.println("Indique el precio del videojuego:");
+		precio = input.nextDouble();
+		game2.setPrecio(precio);
+		
+		System.out.println("------------------------------");
+		
+		System.out.println("El título es " + game2.getTitulo());
+		System.out.println("El género es " + game2.getGenero());
+		System.out.println("El precio es es " + game2.getPrecio() + "$");
+		
+		/*-------------------------------------------------------------*/
+		/*-------------------------------------------------------------*/
+		/*-------------------------------------------------------------*/
+		
+		System.out.println("Indique el nómbre del videojuego:");
+		titulo = input.nextLine();
+		game3.setTitulo(titulo);
+		System.out.println("Indique el género del videojuego:");
+		genero = input.nextLine();
+		game3.setGenero(genero);
+		System.out.println("Indique el precio del videojuego:");
+		precio = input.nextDouble();
+		game3.setPrecio(precio);
+		
+		System.out.println("------------------------------");
+		
+		System.out.println("El título es " + game3.getTitulo());
+		System.out.println("El género es " + game3.getGenero());
+		System.out.println("El precio es es " + game3.getPrecio() + "$");
+		
+		input.close();
+	}
+
+}

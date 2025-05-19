@@ -1,0 +1,10 @@
+package ejercicioPropuesto03_VisibilidadYEncapsulamiento;
+
+public class PruebaVideojuego {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

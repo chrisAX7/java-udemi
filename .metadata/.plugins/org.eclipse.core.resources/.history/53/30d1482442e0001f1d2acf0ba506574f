@@ -1,0 +1,16 @@
+package ejercicioPropuesto04_UsoDeConstructores;
+import ejercicioPropuesto03_VisibilidadYEncapsulamiento.Videojuego;
+
+public class PruebaConstructores {
+
+	public static void crearJuego()
+	{
+		
+	}
+	
+	public static void main(String[] args) 
+	{
+
+	}
+
+}

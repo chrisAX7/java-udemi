@@ -1,0 +1,17 @@
+package Ejemplo01;
+
+public class Libro {
+	
+		String titulo;
+		String editorial;
+		int numPaginas;
+		
+		void mostrarInformacion()
+		{
+			System.out.println("T�tulo: " + titulo);
+			System.out.println("Editorial: " + editorial);
+			System.out.println("P�ginas: " + numPaginas);
+		}
+	}
+
+

@@ -1,0 +1,11 @@
+package pakash;
+
+public class PruebaRandom {
+
+	public static void main(String[] args) {
+		int azar =10 * (int)Math.random();
+		System.out.println(azar);
+
+	}
+
+}

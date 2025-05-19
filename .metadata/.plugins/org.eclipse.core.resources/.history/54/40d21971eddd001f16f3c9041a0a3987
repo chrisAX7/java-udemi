@@ -1,0 +1,10 @@
+package EjercicioPropuesto01;
+
+public class PruebaVideojuego {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
